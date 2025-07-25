@@ -1,0 +1,386 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar: left or right
+  support_me: True
+  education: False # set to False if you want education in the main section instead of in the sidebar
+
+  # Profile information
+  name: Joseph Leedy
+  tagline: Adobe Commerce Developer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: joseph@josephleedy.dev
+  phone:
+  timezone: America/Denver # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  timezone_description: Mountain Time # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: United States
+  website: https://josephleedy.dev # Include the full website URL, including "http://" or "https://".
+  linkedin: JosephLeedy
+  xing:
+  github: JosephLeedy
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky: # Specify your full Bluesky handle
+  twitter:
+  stack-overflow: 1470731/joseph-leedy # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: https://phpc.social/@JosephLeedy # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your résumé.
+
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Beginner
+
+  interests:
+    title: Interests
+    info:
+      - item: Motorcycling
+        link:
+
+      - item: Travelling
+        link:
+
+      - item: Coding
+        link:
+
+
+career-profile:
+  title: About Joseph
+  summary: |
+    Joseph is a highly-focused, driven, detail-oriented Adobe Commerce Certified Developer who enjoys integrating 
+    Adobe Commerce and Magento Open Source with various third-party platforms. He has built extensions for payment 
+    providers, transactional SMS messaging, fraud detection, and online auction services. 
+    
+    Joseph has more than 25 years of development experience (since 1999) with HTML, CSS, SASS, LESS, PHP, JavaScript, 
+    XML, and other development languages and technologies. He is also knowledgeable in the creation and implementation 
+    of development processes and best practices. He is always trying to learn new things, for example, how to build 
+    integrations with the up and coming Shopware e-commerce application.
+  
+    Joseph's work always speaks volumes for itself in the cleanliness and efficiency of the code that he writes. He 
+    always follows well-established, industry standard best practices in everything that he does. All of his code is 
+    stored in a version control repository, using Git. He writes unit tests, integration tests, and functional tests 
+    and uses static analysis tools such as PHPStan to ensure that his code is as bug-free as possible.
+  
+    In addition to his development skills, Joseph is also knowledgeable in the practice of automating code quality and 
+    testing processes using continuous integration and continuous deployment (CI/CD) platforms such as GitHub Actions.
+  
+    When Joseph is not building integrations or learning something new, he loves to spend his free time participating 
+    in many personal hobbies, including traveling to exotic places and riding his motorcycle.
+
+education:
+  title: Education
+  info:
+  - degree:
+    university:
+    time:
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+
+experiences:
+  title: Professional Experience
+  info:
+    - role: Senior Software Developer
+      time: April 2024 - April 2025
+      company: Bold Commerce
+      location: Remote
+      details: |
+        - Maintained and improved Bold’s integrations between their SaaS checkout platform and 
+        Magento Open Source/Adobe Commerce
+        - Reviewed code crafted by other developers and assisted them in improving their development skills
+        - Helped develop processes for improving code quality
+        - Added integration tests for new and existing code
+        - Architected Continuous Integration and Delivery pipelines in GitHub Actions for automatically running static 
+        analysis and verifying that established coding standards were adhered to
+        - Shared an extensive knowledge of Magento with less experienced colleagues
+
+    - role: Technical Lead
+      time: March 2023 - March 2024
+      company: Corra
+      location: Remote
+      details: |
+        - Acted as a technical resource for assigned clients and assisted them with support questions as they arose
+        - Worked with several teams of developers based in India to deliver new features and assist them with resolving 
+        complex technical issues
+        - Reviewed team members' code in pull requests, provided feedback and offered guidance as warranted
+        - Worked with solutions strategists to develop requirements and specifications for new features as well as 
+        document existing features
+        - Provided front-line assistance to support engineers to immediately resolve production issues as they were 
+        encountered
+
+    - role: Technical Lead
+      time: January 2022 - February 2023
+      company: Imagination Media
+      location: Remote
+      details: |
+        - Acted as a technical resource for assigned clients and assisted them with support questions as they arose
+        - Worked with several teams of developers based in Brazil and other global locations to deliver new features and 
+        assist them with resolving complex technical issues
+        - Reviewed team members' code in pull requests, provided feedback and offered guidance as warranted
+        - Developed requirements and specifications for new features and documented existing features
+        - Managed and built Magento Open Source and Adobe Commerce stores, extensions and integrations
+        - Provided front-line support to immediately resolve production issues as they were encountered
+        - Developed and implemented a Continuous Integration and Continuous Deployment process to facilitate the 
+        automation of code quality assurance and testing
+
+    - role: Technical Lead
+      time: July 2018 - December 2021
+      company: Wagento Commerce
+      location: Remote
+      details: |
+        - Acted as a technical resource for assigned clients and assisted them with support questions as they arose
+        - Managed a team of developers based in India to deliver new features and assist them with resolving complex 
+        technical issues
+        - Reviewed team members' code in pull requests, provided feedback and offered guidance as warranted
+        - Developed requirements and specifications for new features and documented existing features
+        - Managed and built Magento Open Source and Adobe Commerce stores, extensions and integrations
+        - Provided front-line support to immediately resolve production issues as they were encountered
+        - Developed and implemented Continuous Integration and Continuous Deployment processes to facilitate the 
+        automation of code quality assurance and enable zero-downtime deployments
+        - Architected and briefly maintained critical website infrastructure for a large client with a complex install 
+        of Adobe Commerce
+
+    - role: Chief Technical Officer
+      time: May 2015 - July 2018
+      company: Imagination Media
+      location: On-site - Hallandale Beach, Florida
+      details: |
+        - Started as the primary developer building and maintaining stores and extensions on Magento 1
+        - Transitioned into a leadership role and helped the company grow into a successful agency that is still 
+        thriving today
+        - Hired and mentored new developers from the US and Brazil
+        - Created and implemented many processes around code management and development standards 
+        - Directly interfaced with clients and gathered requirements
+        - Ensured that clients' needs and expectations were met 
+        - Verified that clients were satisfied with the quality of work and level of service they received
+        - Recruited and onboarded new clients
+
+    - role: Backend Developer
+      time: October 2014 - June 2015
+      company: Synapse Marketing
+      location: On-site - Lancaster, Pennsylvania
+      details: |
+        - Maintained WordPress sites, themes and plug-ins
+
+    - role: E-commerce Solutions Engineer
+      time: August 2011 - October 2014
+      company: ParadoxLabs
+      location: On-site - Lancaster, Pennsylvania
+      details: |
+        - Developed, implemented, and maintained WordPress sites, themes and plug-ins
+        - Developed, implemented, and maintained Magento 1 stores, themes and extensions
+
+    - role: Web Services Student Worker
+      time: January 2011 - June 2011
+      company: Harrisburg Area Community College (HACC)
+      location: On-site - Harrisburg, Pennsylvania
+      details: |
+        - Six month internship in the Web Services department of Harrisburg Area Community College
+        - Responsible for maintaining professors’ microsites and Web pages on HACC’s bespoke Coldfusion-based CMS 
+        platform
+        - Architected the implementation of the school's first mobile Web site
+
+certifications:
+  title: Certifications
+  list:
+    - name: Adobe Certified Expert - Adobe Commerce Developer
+      start: September 2019
+      end: Present
+      organization: Adobe
+      credentialid:
+      credentialurl:
+      credentialname:
+      details:
+
+    - name: Adobe Certified Professional - Adobe Commerce Developer
+      start: August 2019
+      end: Present
+      organization: Adobe
+      credentialid:
+      credentialurl:
+      credentialname:
+      details:
+
+    - name: Magento Certified Developer
+      start: August 2014
+      end: December 2022
+      organization: Magento
+      credentialid:
+      credentialurl:
+      credentialname:
+      details:
+
+
+projects:
+  title: Projects
+  intro:
+  assignments:
+    - title: Custom Fees for Magento 2
+      link: https://github.com/JosephLeedy/magento2-module-custom-fees
+      tagline: An extension that adds configurable custom fees to orders.
+
+oss:
+  title: OSS Contributions
+  intro: >
+    You can list your open source software contributions in this section.
+  contributions:
+    - title: Title
+      link: "#"
+      tagline: Brief description
+
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title:
+      link: "#"
+      authors:
+      conference:
+
+recommendations:
+  title: Recommendations
+  list:
+    - person: Dave Macaulay
+      email:
+      phone:
+      linkedin: dave-macaulay
+      role: Senior Engineering Manager, Bold Commerce
+      recommendation: |
+        I had the pleasure of working closely with Joseph during his time at Bold, where he played a pivotal role in 
+        our Magento practice. Joseph consistently demonstrated a deep understanding of complex Magento / Adobe Commerce 
+        solutions, quickly grasping challenges, formulating effective resolutions, and successfully delivering 
+        high-quality outcomes.
+  
+        His contributions were instrumental in setting the standard for how we approached and executed Magento 
+        solutions. Joseph is not only an exceptional problem solver but also a team player, always willing to 
+        collaborate through pair programming and support colleagues without hesitation. His extensive experience with a 
+        variety of programming languages and frameworks, honed over decades, makes him an invaluable asset to any team.
+  
+        On a personal note, I always looked forward to our conversations, as Joseph frequently introduced new and 
+        innovative approaches to improving our CI/CD. His ability to share knowledge and drive continuous learning was 
+        one of the highlights of our working relationship. Joseph is a true professional, and I wholeheartedly recommend
+        him for any role that requires technical expertise, problem-solving, and a passion for delivering excellence.
+
+    - person: Lynette Langenfeld
+      email:
+      phone:
+      linkedin: lynette-langenfeld-644425
+      role: Director Omnichannel Technologies, AM Retail Group
+      recommendation: |
+        I highly recommend Joseph Leedy for a role as a Developer. Joseph was always willing to go above and beyond to 
+        ensure our project's success through new development initiatives and supporting us when issues arose. His 
+        technical expertise and attention to detail are impressive. Joseph also excels in keeping on top of the latest 
+        industry trends and best practices by taking classes, researching and reading. He is also a great communicator 
+        and collaborator. He will work through a problem to its resolution; with his tenacity and desire to understand 
+        the root cause of the problem/use case. He also offers automated solutions rather than a manual workaround, 
+        whenever possible. Overall, I am pleased to recommend Joseph for any development role.
+
+    - person: Gary Fuller
+      email:
+      phone:
+      linkedin: garyfuller2
+      role: Principal UX Architect, Magid
+      recommendation: |
+        I have had the pleasure of working closely with Joseph, a highly distinguished Adobe Commerce Certified 
+        Developer, who played a pivotal role as the lead developer on our company's Magento implementation. His unique 
+        blend of technical expertise, forward-thinking approach, and amiable nature make him an invaluable asset to any 
+        organization. Joseph's ability to communicate effectively, coupled with his willingness to share knowledge and 
+        provide support, has not only enhanced our project's success but also fostered a collaborative and productive 
+        work environment. I wholeheartedly recommend Joseph for any position that seeks to leverage his extensive 
+        skills and experience. His future contributions are sure to be as remarkable as the ones he has made during 
+        his time with us.
+
+    - person: Brent W Peterson
+      email:
+      phone:
+      linkedin: brentwpeterson
+      role: President, Wagento Commerce
+      recommendation: |
+        I have known and worked with Joseph [since 2014]. He is one of the most focused and productive developers I 
+        know. Joseph is industrious and creative in his approach to solving difficult technical problems and will 
+        think outside the box to come up with solutions to problems.
+  
+        Joseph has helped our team at Wagento grow and has been an important part of our Magento / Adobe practice. He 
+        participates in our Center of Excellence and is a continual inspiration with his ideas and knowledge of the 
+        product.
+  
+        I would highly recommend Joseph for any and all e-commerce projects.
+
+    - person: Ray Carlson
+      email:
+      phone:
+      linkedin: carlsonray
+      role: eCommerce Manager - SleepHappens.com, Mattress Warehouse, Inc
+      recommendation: |
+        I had the opportunity to work with Joseph as a client of his while Joseph was at ParadoxLabs. Joseph was always 
+        an absolute pleasure to work with: extremely dedicated to both the quality of the work he did and the 
+        satisfaction of the client.
+        
+        I admired the fact that Joseph was not only skilled at the technical side of the work but also very adept at 
+        communicating with the client: I trusted and appreciated Joseph's insight. Joseph would absolutely be one of 
+        the people I could point to as being a great resource for me during the course of my career. I feel really 
+        strongly that you have to not only admire and appreciate a professional's technical skill set in doing the work 
+        you have commissioned them to do but you also have to trust that the person doing the work will always have 
+        your best interests at heart, you can trust them, and that they'll look out for you. I can say with confidence 
+        that Joseph is that kind of person and that kind of professional - I'm hoping our paths will cross again and 
+        I'll have the pleasure of working with Joseph on future projects!
+
+    - person: Shawn Boksan
+      email:
+      phone:
+      linkedin: shawnboksan
+      role: Project Manager, ParadoxLabs
+      recommendation: |
+        Joseph is a true team player. Joseph has superior WordPress development skills and is currently working towards 
+        becoming a Magento developer. He does "whatever it takes" and always thinks outside the box. He is an asset to 
+        the ParadoxLabs team.
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+    - name: PHP
+      level: 99%
+
+    - name: Adobe Commerce/Magento Open Source
+      level: 99%
+
+    - name: Git
+      level: 97%
+
+    - name: Integration Testing
+      level: 90%
+
+    - name: HTML5 & CSS3
+      level: 90%
+
+    - name: JavaScript
+      level: 90%
+
+    - name: GitHub Actions
+      level: 80%
+
+
+footer: >
+  Original template designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
